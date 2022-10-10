@@ -1,0 +1,89 @@
+body {
+  background: rgb(37, 37, 37);
+  color: white;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+  flex-direction: column;
+  overflow-y: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+* {
+  font-family: "Archivo", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 70vw;
+  padding-left: 15px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 30px;
+  transition: 0.5s ease all;
+  animation: animation 1s ease;
+}
+button {
+  z-index: 20000;
+  height: 35px;
+  border: none;
+  font-size: 18px;
+  background: rgb(0, 180, 81);
+  font-weight: bold;
+  width: 110px;
+  border-radius: 15px;
+  color: white;
+  animation: animationBTN 2.5s ease;
+  cursor: pointer;
+}
+svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+@media (min-width: 900px) {
+  svg {
+    position: absolute;
+    bottom: -200px;
+  }
+}
+@keyframes animation {
+  from {
+    width: 0px;
+  }
+  to {
+  }
+}
+@keyframes animationBTN {
+  from {
+    opacity: 0;
+  }
+  to {
+  }
+}
+.fill {
+  background: rgb(0, 104, 47);
+  color: rgb(153, 153, 153);
+  pointer-events: none;
+}
+.logo {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+}
+@media (max-width: 700px) {
+  .logo {
+    left: 14px;
+    bottom: 7px;
+  }
+}
