@@ -81,7 +81,7 @@ export default function Home({ image }) {
         target={"_blank"}
         rel="noreferrer"
         className="logo"
-        href="https://github.com/gouderhicham/send-sms-with-twilio"
+        href="https://github.com/gouderhicham/Send-me-sms-next-js-app"
       >
         <img
           width={40}
