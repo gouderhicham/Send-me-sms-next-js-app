@@ -27,7 +27,7 @@ export default function Home({ image }) {
             setTimeout(() => {
               resolve(res.message);
               setdisabled(false);
-            }, 6000);
+            }, 1200);
           });
         })
         .catch((err) => console.log(err)),
